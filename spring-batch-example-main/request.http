@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/uaa/signin
+Content-Type: application/json
+
+{
+  "username": "admin@miu.edu",
+  "password": "admin"
+}
+
+###
+
+GET http://localhost:8080/api/data/batch
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBtaXUuZWR1IiwiaWF0IjoxNjYyNjQ4OTUzLCJleHAiOjE2NjI2NTQzNTN9.Xs3DtNrtBLNaaYGZUXcQbWJCwb67OVco_MtXVEyQuPMr8mCpOqniyGJQFufXCKARVbLs4GcQZbBy3biUllgUDg
+###
